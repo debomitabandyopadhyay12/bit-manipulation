@@ -1,0 +1,9 @@
+int findXOR(int l, int r) {
+    int ans = 0; // Initialize ans before the loop
+    
+    for (int i = l; i <= r; i++) {
+        ans = ans ^ i; // XOR with each number in the range
+    }
+    
+    return ans;
+}
